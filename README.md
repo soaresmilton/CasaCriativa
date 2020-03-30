@@ -58,7 +58,7 @@ Principais tecnologias utilizadas para o desenvolvimento back-end, front-end, mo
 ![Ideias 3](github/ideias3.png)
 
 
-## <img alt="Icone de engrenagem" src="./github/wheel.svg" width="50px" align="center"> Rodando a aplicação 
+# <img alt="Icone de engrenagem" src="./github/wheel.svg" width="50px" align="center"> Rodando a aplicação 
 
 #### Back-end
 1 - `npm install` para baixar todas as dependências necessárias.
