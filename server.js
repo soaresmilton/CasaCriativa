@@ -58,14 +58,16 @@ server.post("/", function(request, response) {
   //inserindo dados na tabela
   const query = `
   INSERT INTO ideas (
+    id,
     image, 
     title, 
     category, 
     description, 
     link
-  ) VALUES (?, ?, ?, ?, ?);
+  ) VALUES (?, ?, ?, ?, ?, ?);
   `
   const values = [
+    request.body.id,
     request.body.image,
     request.body.title,
     request.body.category,
@@ -83,5 +85,29 @@ server.post("/", function(request, response) {
   })
 })
 
+server.get('/del-ideias', function(request, response) {
+  const deleteIdea = `DELETE FROM ideas WHERE id = id;`
+  let id =  [request.body.id]
+
+  db.run(deleteIdea, id, function(err){
+    if (err) {
+      console.log(err)
+      return response.send("Não foi possível apagar a ideia")
+    }
+    return response.redirect("/ideias")
+  })
+});
+
+
+
 //liguei meu servidor na porta 3000
 server.listen(3000);
+
+
+// ideias.destroy({
+//   where: { 'id': request.params.id }
+// }).then(function() {
+//   response.send("Ideia deletada com sucesso");
+// }).catch(function (err) {
+//   response.send("Ideia não foi deletada");
+// })

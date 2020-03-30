@@ -8,8 +8,7 @@ function onOff(){
     .querySelector("body")
     .classList
     .toggle("hideScroll")
-  }
-
+}
 function checkFields(event) {
 
   const valuesToCheck = [
@@ -34,3 +33,4 @@ function checkFields(event) {
     event.preventDefault()
     alert("Por favor, preencha todos os campos")
   }
+}
