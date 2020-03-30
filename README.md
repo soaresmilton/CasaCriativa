@@ -42,7 +42,7 @@ Principais tecnologias utilizadas para o desenvolvimento back-end, front-end, mo
 ![CasaCriativa Pagina inicial](github/inicio.png)
 
 <h2>
-<img alt="formulario" src="./github/formu.svg" width="50px" align="center">
+<img alt="formulario" src="./github/form.svg" width="50px" align="center">
  Formulário para adicionar novas ideias  
 </h2>
 
