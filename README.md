@@ -18,10 +18,10 @@
 
 <br>
 
- # <img alt="Icone" src="./github/mobileicon.svg" width="50px" align="center"> Projeto   
+ # <img alt="Icone" src="./github/mobileicon.svg" width="50px" align="center">  Projeto   
  
-<p>O <strong>Be The Hero</strong> é um projeto desenvolvido com Node.js, React.js e React Native, cuja a ideia é conectar possíveis financiadores (Heróis) a campanhas criadas por ONG's.</p>
-<p>A aplicação foi desenvolvida durante a Semana Omnistack 11.0 promovida pela Rocketseat. O projeto avançou por todas as camadas de desenvolvimento, tratando as melhores tecnologias do mercado, levando o aluno a desenvolver dês do back-end até o front-end mobile.</p>
+<p>O <strong>Casa Criativa</strong> é um projeto desenvolvido com Node.js, HTML5, CSS3 e JavaScript, que visa disponibilizar um sistema de catálogo de ideias para se fazer durante o período de quarentena causado pelo novo coronavírus.</p>
+<p>A aplicação foi desenvolvida durante o Workshop na Semana Omnistack 11.0 promovida pela Rocketseat. O projeto abordou os conceitos básicos das tecnologias de desenvolvimento web.</p>
 
 
  # :rocket: Tecnologias usadas 
@@ -35,12 +35,14 @@ Principais tecnologias utilizadas para o desenvolvimento back-end, front-end, mo
  
 # <img alt="Icone de layout" src="./github/layout.svg" width="50px" align="center"> Layouts
 <h2>
+<img alt="Icone de home" src="./github/home2.svg" width="50px" align="center">
   Página inicial 
 </h2>
 
 ![CasaCriativa Pagina inicial](github/inicio.png)
 
 <h2>
+<img alt="formulario" src="./github/formu.svg" width="50px" align="center">
  Formulário para adicionar novas ideias  
 </h2>
 
@@ -56,7 +58,7 @@ Principais tecnologias utilizadas para o desenvolvimento back-end, front-end, mo
 ![Ideias 3](github/ideias3.png)
 
 
-## Rodando a aplicação 
+## <img alt="Icone de engrenagem" src="./github/wheel.svg" width="50px" align="center"> Rodando a aplicação 
 
 #### Back-end
 1 - `npm install` para baixar todas as dependências necessárias.
