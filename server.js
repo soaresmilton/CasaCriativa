@@ -102,12 +102,3 @@ server.get('/ideias/:id', function(request, response) {
 
 //liguei meu servidor na porta 3000
 server.listen(3000);
-
-
-// ideias.destroy({
-//   where: { 'id': request.params.id }
-// }).then(function() {
-//   response.send("Ideia deletada com sucesso");
-// }).catch(function (err) {
-//   response.send("Ideia não foi deletada");
-// })
