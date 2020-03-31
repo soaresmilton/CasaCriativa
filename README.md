@@ -25,7 +25,8 @@
 
 
  # :rocket: Tecnologias usadas 
-Principais tecnologias utilizadas para o desenvolvimento back-end, front-end, mobile, banco de dados, conexões, rotas, validações e testes automatizados.
+Principais tecnologias utilizadas para o desenvolvimento back-end, front-end e banco de dados.
+
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
 - [CSS3](https://css-tricks.com/)
 - [Node.js](https://nodejs.org/en/)
