@@ -61,12 +61,7 @@ Principais tecnologias utilizadas para o desenvolvimento back-end, front-end e b
 
 # <img alt="Icone de engrenagem" src="./github/wheel.svg" width="50px" align="center"> Rodando a aplicação 
 
-#### Back-end
-1 - `npm install` para baixar todas as dependências necessárias.
-
-2 - `npm start` para rodar o servidor.
-
-#### Front-end Web
+#### Back-end e Front-end web
 1 - `npm install` para baixar todas as dependências necessárias.
 
 2 - `npm start` para rodar o servidor.
