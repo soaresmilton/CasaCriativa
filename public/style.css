@@ -124,6 +124,9 @@ footer a {
   padding: 32px;
   margin-bottom: 32px;
 }
+.idea .content {
+  width: 100%;
+}
 
 .idea img {
   width: 60px;
@@ -336,6 +339,12 @@ footer {
   margin-top: 64px;
 }
 
-div#deletar .delete {
-  width: 22px;
+/* section#buttons .delete {
+  width: 28px;
+ 
+} */
+section#buttons .delete {
+  width: 20px;
+  height: 22px;
+  margin: auto;
 }

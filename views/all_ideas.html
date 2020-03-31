@@ -1,12 +1,6 @@
 {% for idea in ideas %} <!--Aqui podemos substituir o "idea" por qualquer coisa. Podemos utilizar i por exemplo-->
   <div class="idea">
-    <div id="deletar">
-      <a href="/ideias/{{idea.id}}">
-        <button>
-          <img class="delete" alt="deletar" src="https://image.flaticon.com/icons/svg/1168/1168643.svg"/>
-        </button>
-      </a>
-    </div>
+    
     <img 
     src="{{idea.image}}" 
     alt="Imagem de {{idea.title}}">
@@ -19,5 +13,12 @@
       </div>
       <a href="{{idea.link}}" target="_blank">Ir para a ideia.</a>
     </div>
+    <section id="buttons">
+      <a href="/ideias/{{idea.id}}">
+        <button>
+          <img class="delete" alt="deletar" src="https://image.flaticon.com/icons/svg/1168/1168643.svg"/>
+        </button>
+      </a>
+    </section> 
   </div> 
 {% endfor %}
