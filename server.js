@@ -85,16 +85,16 @@ server.post("/", function(request, response) {
   })
 })
 
-server.get('/del-ideias', function(request, response) {
-  const deleteIdea = `DELETE FROM ideas WHERE id = id;`
-  let id =  [request.body.id]
+server.get('/ideias/:id', function(request, response) {
+  const deleteIdea = `DELETE FROM ideas WHERE id = ?;`
+  const { id } = request.params;
 
   db.run(deleteIdea, id, function(err){
     if (err) {
       console.log(err)
       return response.send("Não foi possível apagar a ideia")
     }
-    return response.redirect("/ideias")
+    return response.redirect('/ideias')
   })
 });
 

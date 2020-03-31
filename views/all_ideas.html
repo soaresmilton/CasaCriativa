@@ -1,7 +1,7 @@
 {% for idea in ideas %} <!--Aqui podemos substituir o "idea" por qualquer coisa. Podemos utilizar i por exemplo-->
   <div class="idea">
     <div id="deletar">
-      <a href="/del-ideias">
+      <a href="/ideias/{{idea.id}}">
         <button>
           <img class="delete" alt="deletar" src="https://image.flaticon.com/icons/svg/1168/1168643.svg"/>
         </button>
