@@ -98,7 +98,4 @@ server.get('/ideias/:id', function(request, response) {
   })
 });
 
-
-
-//liguei meu servidor na porta 3000
 server.listen(3000);
