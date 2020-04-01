@@ -74,7 +74,7 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 
 # :memo: Licença 
 
-Esse projeto está sob a licença MIT. Cheque no arquivo [README.md] para mais informações
+Esse projeto está sob a licença MIT. Cheque no arquivo ![README.md] para mais informações
 
 ---
 
